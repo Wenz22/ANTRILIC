@@ -1,0 +1,57 @@
+/* css for index and sign up */
+/* the body , form, col-lg-6 is for background */
+body{
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+   
+}
+form {
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.col-lg-6{
+    background-image: url(../Img/bkg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+/* option ul, option ul li ,and options ul li a i for other option to sign in or sign up */
+.options ul{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.options ul li{
+  padding-left: 10px;
+  margin-left: 50px;
+  list-style: none;
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 26px;
+  background: #FFF;
+
+/* Shadow/shadow-sm */
+ box-shadow: 0px 1px 3px 0px rgba(50, 50, 71, 0.10), 0px 0px 1px 0px rgba(12, 26, 75, 0.20);
+  
+}.options ul li a i{
+    padding-top: 25px;
+    padding-left: 3px;
+}
+.options{
+    margin-left: 76px;
+}
+.dex{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.dex hr{
+    color: darkgray;
+    width: 25%;
+   
+}

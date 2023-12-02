@@ -1,0 +1,167 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+ 
+}
+
+.menu-bar{
+    display: flex;
+    height: 96px;
+    padding: var(--spacing-7, 28px) 70px;
+    align-items: center;
+    align-content: center;
+    gap: var(--spacing-3, 12px) 80px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+.img-logo{
+    height: 50px;
+    width: auto;
+   
+    
+}
+.menu-bar ul {
+    list-style: none;
+    display: flex;
+    
+}
+.menu-bar ul li {
+    padding: 5px;
+}
+
+.menu-bar ul li a {
+    text-decoration:none;
+    color: black;
+}
+.menu-bar ol {
+    list-style: none;
+    display: flex;
+}
+.menu-bar ol li {
+    padding: 10px 5px;
+}
+
+
+.srh{
+    border-radius: var(--spacing-1, 4px);
+    border: 1px solid var(--button-stroke-stroke, #D9D9D9);
+    display: flex;
+    padding: var(--spacing-2, 4px) var(--spacing-3, 6px);
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-3, 9px);
+}
+
+
+
+.menu-bar1{
+    display: flex;
+    padding: var(--spacing-2, 8px) 90px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    row-gap: var(--spacing-3, 12px);
+    align-self: stretch;
+    flex-wrap: wrap;
+    background-color: #262626;
+   
+    
+}
+
+
+.menu-bar1-1 ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.menu-bar1-1 ul li{
+    padding: var(--spacing-2, 8px) 20px;
+}
+.menu-bar1-1 ul li a {
+    text-decoration: none;
+    color:white;
+    font-size: 10px;
+}
+.menu-bar1-1 ul li a p{
+    font-size: 20px;
+
+}
+
+
+
+.coupons{
+    display: flex;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding: 0px 40px 0px 40px;
+}
+.coupons img {
+    padding-right: 10px;
+}
+.coupons div{
+    padding-top: 15px;
+   
+}
+.coupons div p {
+    color: var(--text-color-dark-text-primary, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; 
+}
+.coupons div span {
+    color: var(--text-color-dark-text-secondary, #C4C4C4);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+.menu-bar1-2 ul {
+    display: flex;
+    list-style: none;
+    padding: 20px;
+
+}
+.menu-bar1-2 ul li{
+    padding-left: 30px;
+  
+    
+}
+.menu-bar1-2 ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.categories ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+    margin-left: 50px;
+    width: 90%;
+}
+.categories ul li {
+    list-style: none;
+}
+.categories ul li a{
+    text-decoration: none;
+    color:gray;
+    font-size: 10px;
+}
+.categories ul li a:hover{
+    color: red ;
+    font-size: 15px;
+    
+   
+}
